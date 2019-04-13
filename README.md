@@ -2,7 +2,7 @@
 PHP/bash scripts for cycling mjpg_streamer processes for multiple USB cameras based on need (ideal for systems with multiple Octoprint instances)
 
 ## Purpose
-I wrote these scripts for a mini-3D printer farm (9 printers) running individual octoprint instances on a Linux box. I had a bunch of cheap YUV USB webcams pointed at each
+I wrote these scripts for a mini-3D printer farm (9 printers) running individual octoprint instances on a single Linux box. I had a bunch of cheap YUV USB webcams pointed at each
 printer, but since they reserve so much bandwidth on the USB bus, I could only have two running at a time. These scripts start/stop mjpg_streamer processes as needed so all the printers can be monitored by cameras (just not at the same time).
 
 ## Setup
